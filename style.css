@@ -11,6 +11,8 @@ body {
     flex-wrap:wrap;
 }
 
+
+ /* =============== Header =======================  */
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -90,3 +92,149 @@ a {
     text-decoration: none;
     color:#f9faf8;
 }
+/* =============== Header Style End ================ */
+
+
+
+/* ================ Upper =================== */
+.upper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px ;
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.random-images {
+    border: 5px solid #3882f6;
+    border-radius: 5%;
+    width: 120px;
+    height: 120px;
+}
+
+.heading {
+    margin-bottom: 48px;
+}
+
+.sub-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 120px;
+    padding: 0;
+}
+
+.image-subtext {
+    color:#1f2937;
+    font-weight:300;
+    font-size:small;
+}
+
+/* ================ End Upper ============== */
+
+
+
+
+/* ================ Mid ================== */
+.mid {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 2%;
+    background-color: #e5e7eb;
+    box-sizing: border-box;
+}
+
+.quote {
+    font-size: 36px;
+    color: #67778f;
+    font-style:italic;
+    /* max-width: 700px; */
+    margin: auto;
+}
+
+
+
+.citation {
+    text-align: right;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+/* =============== End Mid ============== */
+
+
+/* =============== Lower ============== */
+
+.lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 32px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    padding: 32px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 3%;
+    padding: 16px 150px;
+    box-sizing: border-box;
+}
+
+.sign-up {
+    border: 2px solid white;
+    padding: 8px 32px;
+}
+
+.text {
+    /* height:16px; */
+}
+
+.lower-title {
+    margin-bottom: 0;
+    font-size: 18px;
+    /* font-size: 4px; */
+    color:#f9faf8;
+    font-weight: bold;
+}
+
+.lower-subtext {
+    margin-top: 0;
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+/* =============== End Lower ============== */
+
+
+/* ================== Footer =================== */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+#copyright {
+    color: white;
+}
+
+/* ================== Footer End =============== */
